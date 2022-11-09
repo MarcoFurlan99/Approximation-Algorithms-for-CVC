@@ -1,7 +1,10 @@
 # Approximation-Algorithms-for-CVC
-Thesis of my Math Bachelor Degree
 
-THE CLASS GRAPH
+## Thesis of my Math Bachelor Degree
+
+You can execute main.py
+
+### THE CLASS GRAPH
 
 The class Graph contains all the basic functions that may be needed for graphs.
 
