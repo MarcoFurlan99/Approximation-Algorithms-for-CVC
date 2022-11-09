@@ -1,0 +1,83 @@
+The algorithm found a CVC with 211 vertices
+Help on class Graph in module graph_class:
+
+class Graph(builtins.object)
+ |  Graph(graph_dict=None, import_type=None)
+ |
+ |  Methods defined here:
+ |
+ |  Adjacency_matrix(self)
+ |      returns the adjacency matrix of the graph
+ |
+ |  Complete_graph(n)
+ |      returns the n-th complete graph (undirected)
+ |
+ |  Cycle(n)
+ |      returns a cycle of length n
+ |
+ |  GRASP_CVC(self, iterations)
+ |      Executes GreedyConstruction and LocalSearch repeatedly, returns smallest
+ CVC found
+ |
+ |  GRASP_CVC_star(self, iterations)
+ |      Executes GreedyConstruction and LocalSearch_star repeatedly, returns sma
+llest CVC found
+ |
+ |  Generalized_Petersen_graph(n, k)
+ |      returns the generalized Petersen graph G(n,k), k controls the "rotation"
+ of the inner polygon. See Wikipedia for more details
+ |
+ |  GreedyConstruction(self)
+ |      constructs a CVC by greedily choosing the vertices that cover more edges
+.
+ |
+ |  Hypercubic_graph(n)
+ |      returns the n-th hypercubic graph
+ |
+ |  LocalSearch(self, C)
+ |      algorithm that will take the CVC C and look for a similar, better CVC
+ |
+ |  LocalSearch_star(self, C)
+ |      my improved version of the LocalSearch. The differences are shown by <--
+ |
+ |  NN(self, S)
+ |      returns the neighbourhood of the set S (subset of vertices). For the nei
+ghbourhood of a single vertex use edges(v)
+ |
+ |  Path(n)
+ |      returns a path of length n
+ |
+ |  __init__(self, graph_dict=None, import_type=None)
+ |      initializes a graph object. Examples of use: 1) Graph({1:{2,3},2:{1,3},3
+:{1,2}}) 2) Graph('graph_name','stb') 3)Graph('graph_name','mtx')
+ |
+ |  all_edges(self)
+ |      returns list of edges
+ |
+ |  all_vertices(self)
+ |      returns set of vertices
+ |
+ |  density(self)
+ |      returns the density of the graph.
+ |
+ |  dfs_CVC(self)
+ |      returns a CVC found via depth first search.
+ |
+ |  is_connected_subgraph(self, C)
+ |      returns whether the set C induces a connected subgraph. Faster than self
+.induced_subgraph(C).is_connected()
+ |
+ |  mtx_to_graph(self, name)
+ |      imports .mtx files
+ |
+ |  stb_to_graph(self, name)
+ |      imports .stb files
+ |
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |
+ |  __dict__
+ |      dictionary for instance variables (if defined)
+ |
+ |  __weakref__
+ |      list of weak references to the object (if defined)
