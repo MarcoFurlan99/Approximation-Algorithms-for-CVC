@@ -1,4 +1,4 @@
-# Approximation-Algorithms-for-CVC
+# Approximation Algorithms for CVC
 
 ## Thesis of my Math Bachelor Degree
 
