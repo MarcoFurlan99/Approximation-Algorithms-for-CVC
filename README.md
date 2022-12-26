@@ -2,7 +2,7 @@
 
 ## Thesis of my Math Bachelor Degree
 
-Open the pdf for a detailed description of everything
+Open "TESI_Marco_Furlan.pdf" for a detailed description of everything
 
 ### THE CLASS GRAPH
 
