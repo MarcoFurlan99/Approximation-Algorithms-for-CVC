@@ -2,7 +2,7 @@
 
 ## Thesis of my Math Bachelor Degree
 
-You can execute main.py
+Open the pdf for a detailed description of everything
 
 ### THE CLASS GRAPH
 
