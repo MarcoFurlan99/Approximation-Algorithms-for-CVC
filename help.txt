@@ -1,4 +1,3 @@
-The algorithm found a CVC with 211 vertices
 Help on class Graph in module graph_class:
 
 class Graph(builtins.object)
